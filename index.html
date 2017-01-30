@@ -1,29 +1,50 @@
-<html>
-  <head>
-    <script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
-  </head>
-  <body>
-    <a-scene>
-      <a-box
-        color="#051642"
-        opacity="1"
-        depth="3"
-        height="3"
-        width="3"
-        position="3 1 -6"
-        rotation="40 30 30">
-      </a-box>
-      <a-sphere
-        radius="2"
-        src="texture.png"
-        position="6 10 0">
-      </a-sphere>
-      <a-sphere
-        radius="2"
-        src="texture.png"
-        position="-6 10 0">
-      </a-sphere>
-      <a-sky src="silencio.jpg"></a-sky>
-    </a-scene>
-  </body>
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="author" content="freda nada">
+		<meta name="description" content="fill me in">
+		<meta name="keywords" content="freda nada, kittens">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="/css/style.css" type="text/css"> -->
+    <script src="https://rawgit.com/aframevr/aframe/6e78aba/dist/aframe-master.min.js" async></script>
+	  <title>robitussyn</title>
+	</head>
+
+	<body>
+		<a-scene>
+			<a-box
+				color="#051642"
+				opacity="1"
+				depth="3"
+				height="3"
+				width="3"
+				position="0 1 -6"
+				rotation="40 30 30">
+			</a-box>
+			<a-sphere
+				radius="2"
+				src="texture.png"
+				position="6 10 0">
+			</a-sphere>
+			<a-sphere
+				radius="2"
+				src="texture.png"
+				position="-6 10 0">
+			</a-sphere>
+			<a-sky src="silencio.jpg"></a-sky>
+
+      <a-camera
+        position="0 1 -10"
+        cursor-visible="true"
+        cursor-scale="2"
+        cursor-color="#0095DD"
+        cursor-opacity="0.5">
+      </a-camera>
+
+		</a-scene>
+	</body>
+
 </html>
