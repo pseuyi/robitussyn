@@ -1,5 +1,5 @@
 'use strict'
 
 window.addEventListener('keydown', ()=>{
-  $document.getElementById('header').innerHTML = ''
+  document.getElementById('header').innerHTML = ''
 })
