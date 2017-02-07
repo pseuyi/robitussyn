@@ -4,11 +4,13 @@
 window.addEventListener('keydown', ()=>{
   document.getElementById('header').innerHTML = ''
 })
-// create black box
-const box = document.querySelector('a-box')
-const sky = document.querySelector('a-sky')
 
+let box = document.querySelector('a-box')
+let sky = document.querySelector('a-sky')
+// create box entrance
 box.addEventListener('click', function () {
+  console.log('is this the asky', sky)
+  box.getAttribute('position')
   box.setAttribute('color', 'blue')
   sky.setAttribute('src', '#')
   sky.setAttribute('color', 'black')
