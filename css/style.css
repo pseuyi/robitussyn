@@ -4,7 +4,7 @@ h1 {
   text-align: center;
   z-index: 1;
   /*color: #28306b;*/
-  -webkit-text-stroke: #28306b;
+  -webkit-text-stroke: 1px #28306b;
   -webkit-text-fill-color: none;
   font-size: 8em;
   /*font-family: 'Cousine', monospace;*/
