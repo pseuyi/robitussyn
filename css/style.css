@@ -3,11 +3,13 @@ h1 {
   width: 100%;
   text-align: center;
   z-index: 1;
-  color: #28306b;
+  /*color: #28306b;*/
+  -webkit-text-stroke: #28306b;
+  -webkit-text-fill-color: none;
   font-size: 8em;
   /*font-family: 'Cousine', monospace;*/
   font-family: 'UnifrakturMaguntia', cursive;
-  -ms-transform: scale(2, 7); /* IE 9 */
-  -webkit-transform: scale(2, 7); /* Safari */
-  transform: scale(2, 7);
+  -ms-transform: scale(1, 7); /* IE 9 */
+  -webkit-transform: scale(1, 7); /* Safari */
+  transform: scale(1, 7);
 }
