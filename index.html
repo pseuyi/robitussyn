@@ -27,6 +27,15 @@
 				width="3"
 				position="0 1 -6"
 				rotation="40 30 30">
+				<a-animation
+				    attribute="rotation"
+				    from="20 0 0"
+				    to="20 360 0"
+				    direction="alternate"
+				    dur="4000"
+				    repeat="indefinite"
+				    easing="ease">
+				</a-animation>				
 			</a-box>
 			<a-sphere
 				radius="2"
@@ -47,7 +56,12 @@
         cursor-color="#0095DD"
         cursor-opacity="0.5">
       </a-camera>
-
+			<a-light
+			  type="directional"
+			  color="#FFF"
+			  intensity="0.5"
+			  position="-1 1 2">
+			</a-light>
 		</a-scene>
 
     <script src="js/app.js" defer></script>
