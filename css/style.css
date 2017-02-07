@@ -7,4 +7,7 @@ h1 {
   font-size: 8em;
   /*font-family: 'Cousine', monospace;*/
   font-family: 'UnifrakturMaguntia', cursive;
+  -ms-transform: scale(2, 7); /* IE 9 */
+  -webkit-transform: scale(2, 7); /* Safari */
+  transform: scale(2, 7);
 }
